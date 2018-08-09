@@ -12,4 +12,5 @@ if __name__ == '__main__':
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    execute_from_command_line('runserver 0.0.0.0:8000')
+    a=['runserver','0.0.0.0:8000']
+    execute_from_command_line(a)
