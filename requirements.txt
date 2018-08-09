@@ -1,3 +1,4 @@
 Django==2.1
 pymysql==0.7.9
 pandas==0.22.0
+os
