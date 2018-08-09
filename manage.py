@@ -13,4 +13,4 @@ if __name__ == '__main__':
             "forget to activate a virtual environment?"
         ) from exc
     a=['runserver']
-    execute_from_command_line(a)
+    execute_from_command_line(sys.argv)
